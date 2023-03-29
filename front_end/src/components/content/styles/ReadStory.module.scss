@@ -1,0 +1,166 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.btn-onTop {
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+    background-color: #f8f8f8;
+    border-color: transparent;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-onTop:hover {
+    background-color: #e0e0e0;
+    box-shadow: 1px 4px 4px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+// Menu Bên trái
+.left-bar {
+    background-color: rgb(150, 244, 244);
+    border-radius: 10px;
+    width: 20%;
+    height: 50vh;
+    position: fixed;
+}
+
+.text {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 10px 20px;
+}
+
+select {
+    margin-left: 20px;
+    width: 100px;
+    height: 24px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+select:hover {
+    cursor: pointer;
+    box-shadow: 1px 4px 4px;
+}
+
+.btn-add {
+    padding: 5px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 170);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.btn-add:hover {
+    box-shadow: 1px 2px 3px;
+}
+
+.btn-search {
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-search:focus {
+    outline: none;
+    box-shadow: 1px 2px 3px;
+}
+
+// Content bên phải
+.right-bar {
+    margin-left: 40%;
+    width: 90%;
+}
+
+.title {
+    color: black;
+}
+
+.title:hover {
+    color: black;
+    box-shadow: 1px 1px;
+}
+
+.readMore {
+    color: #585858;
+    font-weight: 600;
+}
+
+.readMore:hover {
+    color: black;
+}
+
+.btn-edit {
+    float: right;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: black;
+    background-color: rgb(255, 200, 0);
+    box-shadow: 1px 2px 3px;
+}
+
+.btn-edit:hover {
+    color: black;
+    box-shadow: none;
+}
+
+.btn-delete {
+    float: right;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 2px 3px;
+}
+
+.btn-delete:hover {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.paging {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.paging a {
+    padding: 5px 10px;
+    background-color: rgb(107, 201, 238);
+    border-radius: 4px;
+    box-shadow: 2px 4px;
+}
+
+.paging a:hover {
+    color: white;
+}
+
+.active {
+    background-color: rgb(150, 244, 244);
+    color: white;
+}

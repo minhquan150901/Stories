@@ -1,0 +1,49 @@
+.wapper {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.inputName {
+    width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.content {
+    font-weight: bolder;
+}
+
+.inputContent {
+    width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.category {
+    font-weight: bolder;
+}
+
+.inputCategory {
+    margin-top: 10px;
+}
+
+.btn-add {
+    background-color: #3e44fa;
+    font-size: 16px;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #3b41ec;
+    box-shadow: 1px 4px 4px black;
+}

@@ -1,0 +1,26 @@
+.wrapper-detail {
+    background-color: rgb(150, 244, 244);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.detail-title,
+.detail-content {
+    margin-left: 20px;
+}
+
+
+.btn-exit {
+    padding: 5px 30px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(117, 117, 117);
+    border-color: transparent;
+    position: relative;
+    left: 50%;
+}
+
+.btn-exit:hover {
+    box-shadow: 1px 4px 4px;
+}

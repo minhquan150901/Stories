@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto !important;
+    padding: 0;
+    background-color: rgb(171, 184, 195);
+    background-image: url("https://welearnvn.com/wp-content/uploads/2022/04/dan-y-thuyet-minh-hoa-sen.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+    height: 100%;
+    margin: 0;
+  }
+  
+  a,
+  button,
+  ul,
+  li {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
